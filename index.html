@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Ritika 💖</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Floating background photos -->
+  <div id="photoWall">
+    <img src="./photos/1.jpeg" class="bg-photo p1" />
+    <img src="./photos/2.jpeg" class="bg-photo p2" />
+    <img src="./photos/3.jpeg" class="bg-photo p3" />
+    <img src="./photos/4.jpeg" class="bg-photo p4" />
+    <img src="./photos/5.jpeg" class="bg-photo p5" />
+    <img src="./photos/6.jpeg" class="bg-photo p6" />
+  </div>
+
+  <div id="app">
+    <h1>Click the envelope 💌</h1>
+
+    <div id="envelope" class="envelope">💌</div>
+
+    <div id="main" class="hidden">
+      <h2>Ritika, will you be my Valentine? 💘</h2>
+      <div class="buttons">
+        <button id="yesBtn" class="yes" type="button">Yes 💖</button>
+        <button id="noBtn" class="no" type="button">No 💔</button>
+      </div>
+      <p id="message"></p>
+
+      <div id="loveNote" class="hidden">
+        From the moment you came into my life, everything got brighter.  
+        Thank you for being you, Ritika 💕  
+        This little page is my tiny way of saying you mean a lot to me.
+      </div>
+    </div>
+  </div>
+
+  <audio id="yesSong" src="./songs/yes.mp3" loop></audio>
+  <audio id="noSong" src="./songs/no.mp3" loop></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
